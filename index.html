@@ -1,139 +1,747 @@
-<!DOCTYPE HTML>
-<!--
-	Story by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Kaya Han Taş</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kaya Han Taş · Data Scientist &amp; Astrophysicist</title>
+  <meta name="description" content="Kaya Han Taş is a data scientist and astrophysicist in Amsterdam. First author of the discovery of TOI-2431 b, an Earth-sized planet with a 5.4-hour orbit, and winner of the KHMW national prize for the best MSc thesis in astronomy." />
+  <meta name="author" content="Kaya Han Taş" />
+  <meta name="theme-color" content="#06070c" />
+  <link rel="canonical" href="https://kaya-han-tas.github.io/" />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
-				<h3 style="display: flex; justify-content: center; align-items: center; margin: 0;">The website is a work in progress...</h3>
-				<!-- One -->
-				<section class="banner style3 fullscreen onload-image-fade-in onload-content-fade-right" style="background-image: url('images/usp.jpg'); background-size: cover; background-position: center; position: relative;">
-						<div class="overlay" style="background-color: rgba(0, 0, 0, 0.75); position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></div>
-						<div class="content" style="position: relative; z-index: 2;">
-							<h1 class = "text-white">Kaya Han Taş, MSc</h1>
-							<p class="major text-white">Hi, I'm Kaya! I'm an Astronomy & Astrophysics Master's student at the University of Amsterdam. 
-								I have experience in data science and astrophysics with multiple projects I've worked on ranging from code packages to research papers.</p>
-							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle" style="background-color: #007BFF; color: white !important;">See Projects</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/Kaya_Han_Taş.jpg" alt="" />
-						</div>
-					</section>
+  <!-- Social previews (LinkedIn, WhatsApp, X, ...) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kaya-han-tas.github.io/" />
+  <meta property="og:title" content="Kaya Han Taş · Data Scientist & Astrophysicist" />
+  <meta property="og:description" content="Turning noisy data into confident conclusions, like the discovery of TOI-2431 b, an Earth-sized planet with a 5.4-hour year." />
+  <meta property="og:image" content="https://kaya-han-tas.github.io/images/web/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-				<!-- Two -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first" style="background-color: rgb(26, 25, 25);">
-						<div class="content">
-							<h2 class = "text-white">An Earth-Sized Planet in a 5.4h Orbit Around a Nearby K dwarf</h2>
-							<p class = "text-white">Worked on the discovery paper of an Ultra-Short Period exoplanet, TOI-2431 b, as the first author of the paper, with researchers in NASA and various other institutes. The paper is live on arXiv and is expected to be published in the Astronomy & Astrophysics (A&A) journal in the near future.</p>
-							<ul class="actions stacked">
-								<li><a href="https://arxiv.org/abs/2507.08464" class="button" style="background-color: #007BFF; color: white !important;">Paper - arXiv</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/arXiv.png" alt="" style="width: auto; height: auto; max-width: 100%; max-height: 100%; display: block; margin: 0 auto;" />
-						</div>
-					</section>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>document.documentElement.classList.add('js');</script>
 
-				<!-- Three -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first" style="background-color: rgb(26, 25, 25);">
-						<div class="content">
-							<h2 class = "text-white">ExoMUSE - A tool for Exoplanetary Analysis</h2>
-							<p class = "text-white">Developed ExoMUSE (Exoplanet Modelling and Understanding for Science and Education) as my Master's thesis. The tool has the ability to do Radial Velocity and Transit analysis, alongside a future implementation for Astrometry (WIP). It has also been validated on the planet TOI-2431 b.</p>
-							<ul class="actions stacked">
-								<li><a href="https://github.com/Kaya-Han-Tas/ExoMUSE" class="button" style="background-color: #007BFF; color: white !important;">ExoMUSE - GitHub</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/usp2.jpg" alt="" style="width: auto; height: auto; max-width: 100%; max-height: 100%; display: block; margin: 0 auto;"/>
-						</div>
-					</section>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kaya Han Taş",
+    "url": "https://kaya-han-tas.github.io/",
+    "image": "https://kaya-han-tas.github.io/images/web/portrait.jpg",
+    "jobTitle": "Data Scientist & Astrophysicist",
+    "email": "mailto:kayahantas07@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Amsterdam", "addressCountry": "NL" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "University of Amsterdam" },
+      { "@type": "CollegeOrUniversity", "name": "Vrije Universiteit Amsterdam" },
+      { "@type": "CollegeOrUniversity", "name": "Akdeniz University" }
+    ],
+    "award": [
+      "KHMW Young Talent Graduation Prize for Astronomy (2025)",
+      "API Best MSc Thesis Prize, University of Amsterdam (2025)"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/kayahantas/",
+      "https://github.com/Kaya-Han-Tas"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57l-.02-2.04c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.62-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05a3.75 3.75 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13Zm1.78 13.02H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4Z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-6"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l12.5-7.5L7 4.5Z" fill="currentColor"/></symbol>
+    <symbol id="i-orbit" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(-20 12 12)"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></symbol>
+    <symbol id="i-telescope" viewBox="0 0 24 24"><path d="m10 14-6 7M14 14l6 7M12 14v7"/><path d="m3.5 9.5 14-6 2 5-14 6z"/><circle cx="12" cy="13" r="1.5"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6.3 6.3l2.5 2.5M15.2 15.2l2.5 2.5M6.3 17.7l2.5-2.5M15.2 8.8l2.5-2.5"/></symbol>
+  </svg>
 
-				<!-- Four -->
-					<section class="wrapper style1 align-center" id="first" style="background-color: rgb(26, 25, 25);">
-						<div class="inner">
-							<h2 class = "text-white">La Palma - Observation Project</h2>
-							<p class = "text-white">Proposed the project for the exoplanet candidate, TOI-2431.01, and secured telescope time at the Mercator Telescope, La Palma as a part of a team of three MSc students. Conducted observations in La Palma for 5 nights, resulting in the discovery of an Ultra-Short Period (USP) exoplanet, TOI-2431 b. Below are some fun highlights from there.</p>
-						</div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-						<!-- Gallery -->
-							<div class="gallery style2 medium lightbox onscroll-fade-in">
-								<article>
-									<a href="images/mercator_telescope2.jpg" class="image">
-										<img src="images/mercator_telescope2.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>The Milky Way with the Northern Lights</h3>
-									</div>
-								</article>
-								<article>
-									<a href="images/kayamilkyway.jpg" class="image">
-										<img src="images/kayamilkyway.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Picture of me with the Milky Way</h3>
-									</div>
-								</article>
-								<article>
-									<a href="images/sunset.jpg" class="image">
-										<img src="images/sunset.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Discoverers of TOI-2431 b looking at their bright horizon</h3>
-									</div>
-								</article>
-							</div>
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="container">
+      <a class="brand" href="#top" aria-label="Kaya Han Taş, back to top"><span class="brand-dot" aria-hidden="true"></span>Kaya Han Taş</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg class="icon"><use href="#i-menu"/></svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#discovery">Discovery</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn btn-primary btn-sm" href="cv/Kaya_Han_Tas_CV.pdf" target="_blank" rel="noopener"><svg class="icon"><use href="#i-download"/></svg>CV</a></li>
+      </ul>
+    </div>
+  </header>
 
-					</section>
-				
-				<!-- Five -->
-				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first" style="background-color: rgb(26, 25, 25);">
-					<div class="content">
-						<h2 class = "text-white">Bachelor's Thesis - Light Curve Modelling</h2>
-						<p class = "text-white">Wrote a Python code that can do light curve analysis using Least-Squares method. The graphical user interface (GUI) and the Radial Velocity method was added to the code after my graduation as a side project. </p>
-						<ul class="actions stacked">
-							<li><a href="https://github.com/Kaya-Han-Tas/Light-Curve-Modelling" class="button" style="background-color: #007BFF; color: white !important;">GitHub Repository</a></li>
-						</ul>
-					</div>
-					<div class="image">
-						<img src="images/LCM.png" alt="" style="width: auto; height: auto; max-width: 100%; max-height: 100%; display: block; margin: 0 auto;"/>
-					</div>
-				</section>
+  <main id="main">
 
-				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="mailto:kayahantas07@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-								<li><a href="https://www.linkedin.com/in/kayahantas/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/Kaya-Han-Tas" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-							</ul>
-							<p>&copy; Kaya Han Taş | Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-						</div>
-					</footer>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <canvas id="starfield" aria-hidden="true"></canvas>
+      <div class="container">
+        <div class="hero-text">
+          <p class="eyebrow">Data Scientist · Astrophysicist · Python Developer</p>
+          <h1>Kaya Han <span class="accent">Taş</span></h1>
+          <p class="hero-lead">I turn noisy, complex data into conclusions people can trust. During my MSc, that meant discovering <strong>TOI-2431&nbsp;b</strong>, an Earth-sized planet with a <strong>5.4-hour year</strong>, as first author of the discovery paper.</p>
+          <ul class="hero-meta">
+            <li><svg class="icon"><use href="#i-pin"/></svg>Amsterdam, NL</li>
+            <li><svg class="icon"><use href="#i-briefcase"/></svg>AI Content Expert II at Amazon</li>
+            <li><span class="status-dot" aria-hidden="true"></span>Open to Data Science &amp; Analytics roles</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#discovery">See the discovery <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-ghost" href="cv/Kaya_Han_Tas_CV.pdf" target="_blank" rel="noopener"><svg class="icon"><use href="#i-download"/></svg>Download CV</a>
+            <div class="socials">
+              <a class="icon-btn" href="https://www.linkedin.com/in/kayahantas/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon solid"><use href="#i-linkedin"/></svg></a>
+              <a class="icon-btn" href="https://github.com/Kaya-Han-Tas" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon solid"><use href="#i-github"/></svg></a>
+              <a class="icon-btn" href="mailto:kayahantas07@gmail.com" aria-label="Email"><svg class="icon"><use href="#i-mail"/></svg></a>
+            </div>
+          </div>
+        </div>
 
-			</div>
+        <div class="hero-visual">
+          <div class="orbit-visual" aria-hidden="true">
+            <svg class="orbit-ring back" viewBox="0 0 420 336"><ellipse cx="210" cy="168" rx="200" ry="62"/></svg>
+            <div class="portrait"><img src="images/web/portrait.jpg" alt="" width="640" height="654" /></div>
+            <svg class="orbit-ring front" viewBox="0 0 420 336"><ellipse cx="210" cy="168" rx="200" ry="62"/></svg>
+            <div class="planet"><span></span></div>
+          </div>
+          <p class="orbit-caption">TOI-2431 b's orbit · 1 second = 1 hour</p>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#featured" aria-label="Scroll down">Scroll<svg class="icon"><use href="#i-down"/></svg></a>
+    </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- ============ FEATURED IN ============ -->
+    <div class="featured" id="featured">
+      <div class="container">
+        <span class="featured-label">Featured in</span>
+        <ul class="featured-list">
+          <li><a class="serif" href="https://www.parool.nl/amsterdam/uva-masterstudent-ontdekt-tijdens-studieproject-een-exoplaneet-het-is-een-kinderdroom-die-uitkomt~be4664e3/" target="_blank" rel="noopener">Het Parool</a></li>
+          <li><a class="serif" href="https://www.ad.nl/amsterdam/uva-masterstudent-ontdekt-tijdens-studieproject-een-exoplaneet-het-is-een-kinderdroom-die-uitkomt~ae4664e3/" target="_blank" rel="noopener">AD</a></li>
+          <li><a href="https://www.uva.nl/en/shared-content/subsites/anton-pannekoek-instituut-voor-sterrenkunde/en/news/2026/06/msc-student-uva-discovers-almond-shaped-exoplanet.html" target="_blank" rel="noopener">University of Amsterdam</a></li>
+          <li><a class="serif" href="https://www.thesun.co.uk/tech/35957556/earth-planet-found-deadly-secret-nasa-space/" target="_blank" rel="noopener">The Sun</a></li>
+          <li><a href="https://phys.org/news/2025-07-earth-sized-exoplanet-orbiting-nearby.html" target="_blank" rel="noopener">Phys.org</a></li>
+          <li><a href="https://www.universetoday.com/articles/earth-sized-planet-discovered-with-extreme-54-hour-year" target="_blank" rel="noopener">Universe Today</a></li>
+          <li><a href="https://heasarc.gsfc.nasa.gov/docs/tess/tess-weekly-bulletin-july-18th.html" target="_blank" rel="noopener">NASA TESS</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/TOI-2431_b" target="_blank" rel="noopener">Wikipedia</a></li>
+        </ul>
+      </div>
+    </div>
 
-	</body>
+    <!-- ============ KEY NUMBERS ============ -->
+    <section class="section" aria-label="Highlights" style="padding-top: clamp(48px, 7vw, 80px); padding-bottom: 0; border-top: 0;">
+      <div class="container">
+        <ul class="stats reveal">
+          <li class="stat"><div class="stat-value">&gt;5<span class="unit">σ</span></div><div class="stat-label">Detection confidence for the planet TOI-2431 b</div></li>
+          <li class="stat"><div class="stat-value">1<span class="unit">st</span></div><div class="stat-label">author of the peer-reviewed discovery paper in <em>Astronomy &amp; Astrophysics</em></div></li>
+          <li class="stat"><div class="stat-value">2<span class="unit">×</span></div><div class="stat-label">Best-MSc-thesis prizes in 2025, including the KHMW national prize</div></li>
+          <li class="stat"><div class="stat-value">15<span class="unit">+</span></div><div class="stat-label">News outlets worldwide covered the discovery</div></li>
+          <li class="stat"><a href="https://www.altmetric.com/details/179332594" target="_blank" rel="noopener"><div class="stat-value">Top 5<span class="unit">%</span></div><div class="stat-label">of all research tracked by Altmetric for online attention</div></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ DISCOVERY ============ -->
+    <section class="section" id="discovery" style="border-top: 0;">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Featured research</p>
+          <h2>TOI-2431 b: an Earth-sized lava world with a 5.4-hour year</h2>
+          <p>As first author, I led the discovery and confirmation of one of the shortest-period planets known. It orbits a nearby star so closely that the star's tides stretch it into an almond shape, and it is slowly spiralling inwards.</p>
+        </div>
+
+        <div class="discovery-grid">
+          <ol class="timeline reveal">
+            <li>
+              <h3>A faint signal <small>TESS candidate</small></h3>
+              <p>NASA's TESS satellite flagged a tiny, repeating dip in a nearby star's brightness: the candidate TOI-2431.01.</p>
+            </li>
+            <li>
+              <h3>Winning telescope time <small>2024</small></h3>
+              <p>With two fellow MSc students I wrote an observing proposal for the candidate, secured time on the Mercator Telescope on La Palma and observed for five nights.</p>
+            </li>
+            <li>
+              <h3>Building the data pipeline</h3>
+              <p>Cleaned and combined multi-source time series: space photometry from several TESS sectors and precise radial velocities from the NEID and HPF spectrographs, plus high-contrast imaging.</p>
+            </li>
+            <li>
+              <h3>Bayesian modelling</h3>
+              <p>Fitted the transit and radial-velocity data jointly with MCMC in <a href="https://github.com/Kaya-Han-Tas/ExoMUSE" target="_blank" rel="noopener">ExoMUSE</a>, my own Python package. I quantified the uncertainty on every parameter and stress-tested the result with injection–recovery tests.</p>
+            </li>
+            <li>
+              <h3>Validation &amp; context</h3>
+              <p>Confirmed the planet at &gt;5σ and compared it with a catalogue of about 6,000 known planets with 20+ parameters each, showing how extreme it is.</p>
+            </li>
+            <li>
+              <h3>Published <small>arXiv Jul 2025 · A&amp;A Mar 2026</small></h3>
+              <p>First-author paper with 27 co-authors from international institutes including NASA, published in <em>Astronomy &amp; Astrophysics</em> 707, A238.</p>
+            </li>
+          </ol>
+
+          <aside class="planet-card reveal" aria-label="TOI-2431 b at a glance">
+            <header>
+              <div class="mini-planet" aria-hidden="true"></div>
+              <div>
+                <h3>TOI-2431 b</h3>
+                <p>Ultra-short-period super-Earth</p>
+              </div>
+            </header>
+            <dl class="facts">
+              <div><dt>Orbital period</dt><dd>5 h 22 min</dd></div>
+              <div><dt>Radius</dt><dd>1.5 × Earth</dd></div>
+              <div><dt>Mass</dt><dd>6.2 × Earth</dd></div>
+              <div><dt>Temperature</dt><dd>≈ 2,060 K (lava world)</dd></div>
+              <div><dt>Distance</dt><dd>36 pc · 117 ly</dd></div>
+              <div><dt>Host star</dt><dd>Nearby K dwarf</dd></div>
+              <div><dt>Shape</dt><dd>Tidally stretched</dd></div>
+              <div><dt>Fate</dt><dd>Hits Roche limit in ~31 Myr</dd></div>
+              <div><dt>Record</dt><dd>6th-shortest known orbit</dd></div>
+            </dl>
+            <footer>
+              <a class="btn btn-primary btn-sm" href="https://doi.org/10.1051/0004-6361/202556365" target="_blank" rel="noopener"><svg class="icon"><use href="#i-doc"/></svg>Read the paper</a>
+              <a class="btn btn-ghost btn-sm" href="https://arxiv.org/abs/2507.08464" target="_blank" rel="noopener">arXiv</a>
+              <a class="btn btn-ghost btn-sm" href="https://exoplanetarchive.ipac.caltech.edu/overview/TOI-2431" target="_blank" rel="noopener">NASA Archive</a>
+              <a class="btn btn-ghost btn-sm" href="https://en.wikipedia.org/wiki/TOI-2431_b" target="_blank" rel="noopener">Wikipedia</a>
+            </footer>
+          </aside>
+        </div>
+
+        <!-- Figures from the paper -->
+        <div class="figures">
+          <figure class="figure reveal">
+            <button type="button" data-lightbox="images/web/fig-joint-fit.jpg" data-white data-caption="Joint transit and radial-velocity fit of TOI-2431 b. Left: TESS photometry folded on the 5.4-hour period. Right: NEID radial velocities with the best-fit model."><img src="images/web/fig-joint-fit.jpg" alt="Phase-folded TESS light curve showing the transit dip, and NEID radial velocities with the best-fit orbit" loading="lazy" width="1600" height="807" /></button>
+            <figcaption><strong>Finding the signal</strong> A joint fit of the transit (left) and the star's wobble (right) pins down the planet's size and mass.</figcaption>
+          </figure>
+          <figure class="figure reveal">
+            <button type="button" data-lightbox="images/web/fig-population.jpg" data-white data-caption="Planet radius versus orbital period for known exoplanets. TOI-2431 b (red) sits at the extreme short-period edge."><img src="images/web/fig-population.jpg" alt="Radius versus orbital period for thousands of known exoplanets, with TOI-2431 b highlighted at the shortest periods" loading="lazy" width="1600" height="715" /></button>
+            <figcaption><strong>An outlier among thousands</strong> Compared with the known exoplanet population, TOI-2431 b sits at the extreme short-period edge.</figcaption>
+          </figure>
+          <figure class="figure reveal">
+            <button type="button" data-lightbox="images/web/fig-mass-radius.jpg" data-white data-caption="Mass–radius diagram with composition curves. TOI-2431 b (red) is consistent with an Earth-like rocky composition."><img src="images/web/fig-mass-radius.jpg" alt="Mass versus radius diagram with composition curves, TOI-2431 b lying near the Earth-like line" loading="lazy" width="1400" height="817" /></button>
+            <figcaption><strong>A rocky world</strong> Its mass and radius point to a dense, Earth-like rocky composition.</figcaption>
+          </figure>
+        </div>
+        <p class="figure-note">Figures from Taş et al. (2026), <em>A&amp;A</em> 707, A238. Click a figure to enlarge.</p>
+
+        <div class="callouts">
+          <div class="callout reveal">
+            <h3><svg class="icon"><use href="#i-chart"/></svg>Same skills, any data</h3>
+            <ul>
+              <li><svg class="icon"><use href="#i-check"/></svg><span><strong>Data integration:</strong> merging time series from several instruments with different noise properties</span></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><span><strong>Bayesian inference:</strong> MCMC, priors and honest uncertainty estimates</span></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><span><strong>Signal detection:</strong> periodograms and model comparison on noisy data</span></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><span><strong>Communication:</strong> explaining results to scientists, journalists and the public</span></li>
+            </ul>
+          </div>
+          <div class="callout highlight reveal">
+            <h3><svg class="icon"><use href="#i-sparkle"/></svg>Now a benchmark world</h3>
+            <p>Our discovery made TOI-2431 b a prime target for follow-up. In 2026 an independent team used the <strong>Hubble Space Telescope</strong> to detect its secondary eclipse, the first such Hubble detection for a rocky exoplanet. JWST observations are planned. <a href="https://arxiv.org/abs/2609.31966" target="_blank" rel="noopener">Read the Hubble study</a></p>
+          </div>
+        </div>
+
+        <!-- La Palma gallery -->
+        <div class="gallery-head reveal">
+          <h3>Behind the discovery: five nights on La Palma</h3>
+          <p>Observing at the Mercator Telescope at the Roque de los Muchachos Observatory.</p>
+        </div>
+        <div class="gallery reveal">
+          <figure class="tile">
+            <button type="button" data-lightbox="images/web/mercator-telescope.jpg" data-caption="Observing with the Mercator Telescope, La Palma"><img src="images/web/mercator-telescope.jpg" alt="Kaya standing beneath the Mercator Telescope, lit in red inside the dome" loading="lazy" width="800" height="1400" /></button>
+            <figcaption>At the Mercator Telescope</figcaption>
+          </figure>
+          <figure class="tile">
+            <button type="button" data-lightbox="images/web/aurora-dome.jpg" data-caption="The Milky Way and the Northern Lights over the observatory"><img src="images/web/aurora-dome.jpg" alt="An observatory dome under a starry sky with a red aurora glow on the horizon" loading="lazy" width="1080" height="596" /></button>
+            <figcaption>The Milky Way and the Northern Lights</figcaption>
+          </figure>
+          <figure class="tile">
+            <button type="button" data-lightbox="images/web/milky-way.jpg" data-caption="Me and the Milky Way"><img src="images/web/milky-way.jpg" alt="Silhouette of Kaya under the Milky Way" loading="lazy" width="1600" height="900" /></button>
+            <figcaption>Me and the Milky Way</figcaption>
+          </figure>
+          <figure class="tile">
+            <button type="button" data-lightbox="images/web/sunset.jpg" data-caption="The discoverers of TOI-2431 b looking at their bright horizon"><img src="images/web/sunset.jpg" alt="Three students watching the sunset above the clouds on La Palma" loading="lazy" width="1600" height="900" /></button>
+            <figcaption>The discoverers of TOI-2431 b looking at their bright horizon</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MEDIA ============ -->
+    <section class="section alt" id="media">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">In the media</p>
+          <h2>A discovery that made the news</h2>
+          <p>National Dutch newspapers, science outlets around the world and the University of Amsterdam covered the story, and I explained the planet on camera for UvA and NOVA.</p>
+        </div>
+
+        <!-- Videos -->
+        <div class="videos">
+          <article class="video reveal">
+            <div class="video-frame">
+              <button type="button" class="video-play" data-reel="DYhhvcnte07" aria-label="Play video: Meet the discoverer">
+                <img src="images/web/reel-meet.jpg" alt="" loading="lazy" width="361" height="640" />
+                <span class="hint"><svg class="icon"><use href="#i-play"/></svg>Play here</span>
+              </button>
+            </div>
+            <div>
+              <h3>Meet the discoverer</h3>
+              <p>How we found TOI-2431 b with the transit method, radial velocities and imaging from telescopes around the globe.</p>
+            </div>
+            <div class="sources">
+              <a href="https://www.instagram.com/reel/DYhhvcnte07/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-instagram"/></svg>University of Amsterdam</a>
+              <a href="https://www.instagram.com/reel/DYbqxYrIfHD/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-instagram"/></svg>NOVA / AstronomieNL</a>
+            </div>
+          </article>
+          <article class="video reveal">
+            <div class="video-frame">
+              <button type="button" class="video-play" data-reel="DYWhJ5EIg2C" aria-label="Play video: A planet shaped like an almond?">
+                <img src="images/web/reel-almond.jpg" alt="" loading="lazy" width="360" height="640" />
+                <span class="hint"><svg class="icon"><use href="#i-play"/></svg>Play here</span>
+              </button>
+            </div>
+            <div>
+              <h3>A planet shaped like an almond?</h3>
+              <p>Why the star's tidal pull stretches this lava world into a teardrop shape.</p>
+            </div>
+            <div class="sources">
+              <a href="https://www.instagram.com/reel/DYWhJ5EIg2C/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-instagram"/></svg>NOVA / AstronomieNL</a>
+            </div>
+          </article>
+          <article class="video reveal">
+            <div class="video-frame">
+              <button type="button" class="video-play" data-reel="DYRXg-soQTb" aria-label="Play video: This planet is set to be destroyed">
+                <img src="images/web/reel-destroyed.jpg" alt="" loading="lazy" width="360" height="640" />
+                <span class="hint"><svg class="icon"><use href="#i-play"/></svg>Play here</span>
+              </button>
+            </div>
+            <div>
+              <h3>This planet is set to be destroyed</h3>
+              <p>With a 5.4-hour orbit, TOI-2431 b is spiralling inwards and will fall into its star in about 31 million years.</p>
+            </div>
+            <div class="sources">
+              <a href="https://www.instagram.com/reel/DYRXg-soQTb/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-instagram"/></svg>NOVA / AstronomieNL</a>
+            </div>
+          </article>
+        </div>
+        <p class="video-note">Videos load from Instagram when you press play. The “Meet the discoverer” video also appeared on UvA's Facebook and NOVA's TikTok and YouTube.</p>
+
+        <!-- Articles -->
+        <div class="gallery-head reveal" style="margin-top: clamp(48px, 7vw, 80px);">
+          <h3>Read the coverage</h3>
+        </div>
+        <div class="news-headliners">
+          <a class="news-card big wide reveal" href="https://www.ntvn.nl/en/nieuws-detail/2026/07/01/een-exoplaneet-ontdekken-was-als-een-jeugddroom-die-uitkwam" target="_blank" rel="noopener">
+            <span class="outlet">Interview <span class="meta">2026</span></span>
+            <span class="masthead">Nederlands Tijdschrift voor Natuurkunde</span>
+            <h3 lang="nl">‘Een exoplaneet ontdekken was als een jeugddroom die uitkwam’</h3>
+            <p class="translation">An in-depth interview about how the discovery happened, in the magazine of the Netherlands Physical Society (NNV).</p>
+            <span class="read">Read the interview on ntvn.nl <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+          <a class="news-card big reveal" href="https://www.parool.nl/amsterdam/uva-masterstudent-ontdekt-tijdens-studieproject-een-exoplaneet-het-is-een-kinderdroom-die-uitkomt~be4664e3/" target="_blank" rel="noopener">
+            <span class="masthead">Het Parool</span>
+            <h3 lang="nl">UvA-masterstudent ontdekt tijdens studieproject een exoplaneet: ‘Het is een kinderdroom die uitkomt’</h3>
+            <p class="translation">“UvA master's student discovers an exoplanet during a study project: ‘It's a childhood dream come true’”</p>
+            <span class="read">Read on parool.nl <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+          <a class="news-card big reveal" href="https://www.ad.nl/amsterdam/uva-masterstudent-ontdekt-tijdens-studieproject-een-exoplaneet-het-is-een-kinderdroom-die-uitkomt~ae4664e3/" target="_blank" rel="noopener">
+            <span class="masthead">AD</span>
+            <h3 lang="nl">UvA-masterstudent ontdekt tijdens studieproject een exoplaneet: ‘Het is een kinderdroom die uitkomt’</h3>
+            <p class="translation">Algemeen Dagblad, one of the largest newspapers in the Netherlands</p>
+            <span class="read">Read on ad.nl <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+        </div>
+        <div class="news-grid">
+          <a class="news-card reveal" href="https://www.uva.nl/en/shared-content/subsites/anton-pannekoek-instituut-voor-sterrenkunde/en/news/2026/06/msc-student-uva-discovers-almond-shaped-exoplanet.html" target="_blank" rel="noopener">
+            <span class="outlet">University of Amsterdam <time datetime="2026-05-18">May 2026</time></span>
+            <h3>MSc student UvA discovers ‘almond shaped’ exoplanet on the brink of falling apart</h3>
+            <span class="read">Read article <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+          <a class="news-card reveal" href="https://www.thesun.co.uk/tech/35957556/earth-planet-found-deadly-secret-nasa-space/" target="_blank" rel="noopener">
+            <span class="outlet">The Sun <time datetime="2025-07-22">Jul 2025</time></span>
+            <h3>Spooky new Earth-sized planet found with deadly secret that would kill visitors</h3>
+            <span class="read">Read article <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+          <a class="news-card reveal" href="https://phys.org/news/2025-07-earth-sized-exoplanet-orbiting-nearby.html" target="_blank" rel="noopener">
+            <span class="outlet">Phys.org <time datetime="2025-07-21">Jul 2025</time></span>
+            <h3>New Earth-sized exoplanet orbiting nearby star detected</h3>
+            <span class="read">Read article <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+          <a class="news-card reveal" href="https://www.universetoday.com/articles/earth-sized-planet-discovered-with-extreme-54-hour-year" target="_blank" rel="noopener">
+            <span class="outlet">Universe Today <time datetime="2025-07-23">Jul 2025</time></span>
+            <h3>Earth Sized Planet Discovered with Extreme 5.4 Hour Year</h3>
+            <span class="read">Read article <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+          <a class="news-card reveal" href="https://heasarc.gsfc.nasa.gov/docs/tess/tess-weekly-bulletin-july-18th.html" target="_blank" rel="noopener">
+            <span class="outlet">NASA TESS <time datetime="2025-07-18">Jul 2025</time></span>
+            <h3>TESS Weekly Bulletin features the discovery of TOI-2431 b</h3>
+            <span class="read">Read bulletin <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+          <a class="news-card reveal" href="https://www.universetoday.com/articles/this-earth-sized-exoplanet-is-on-a-death-spiral" target="_blank" rel="noopener">
+            <span class="outlet">Universe Today <time datetime="2025-07-14">Jul 2025</time></span>
+            <h3>This Earth-sized Exoplanet is On a Death Spiral</h3>
+            <span class="read">Read article <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+          <a class="news-card reveal" href="https://www.earth.com/news/earth-sized-exoplanet-is-spiraling-toward-destruction-toi-2431-b/" target="_blank" rel="noopener">
+            <span class="outlet">Earth.com <time datetime="2025-08-21">Aug 2025</time></span>
+            <h3>Earth-sized exoplanet is spiraling toward destruction</h3>
+            <span class="read">Read article <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+          <a class="news-card reveal" href="https://scitechdaily.com/this-earth-sized-exoplanet-is-racing-toward-its-own-destruction/" target="_blank" rel="noopener">
+            <span class="outlet">SciTechDaily</span>
+            <h3>This Earth-Sized Exoplanet Is Racing Toward Its Own Destruction</h3>
+            <span class="read">Read article <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+          <a class="news-card reveal" href="https://www.astronomie.nl/nieuws/masterstudent-uva-ontdekt-amandelvormige-exoplaneet-op-rand-van-uiteenvallen-4817" target="_blank" rel="noopener">
+            <span class="outlet">NOVA · Astronomie.nl <span class="meta">2026</span></span>
+            <h3 lang="nl">Masterstudent UvA ontdekt ‘amandelvormige’ exoplaneet op rand van uiteenvallen</h3>
+            <span class="read">Read article (Dutch) <svg class="icon"><use href="#i-external"/></svg></span>
+          </a>
+        </div>
+
+        <div class="news-more reveal">
+          <span class="label">Also covered by</span>
+          <a href="https://phys.org/news/2025-07-earth-sized-exoplanet-death-spiral.html" target="_blank" rel="noopener">Phys.org <small>(death spiral)</small></a>
+          <a href="https://astrobiology.com/2025/07/14/an-earth-sized-planet-in-a-5-4h-orbit-around-a-nearby-k-dwarf/" target="_blank" rel="noopener">Astrobiology.com</a>
+          <a href="https://rss.com/podcasts/starxiv" target="_blank" rel="noopener">StarXiv podcast <small>(ep. 16)</small></a>
+          <a href="https://universemagazine.com/spiral-smerti-znajdeno-pryrechenu-na-zagybel-ekzoplanetu/" target="_blank" rel="noopener">Universe Magazine <small>(UA)</small></a>
+          <a href="https://nazology.kusuguru.co.jp/archives/181931" target="_blank" rel="noopener">Nazology <small>(JP)</small></a>
+          <a href="https://www.uva.nl/shared-content/subsites/anton-pannekoek-instituut-voor-sterrenkunde/nl/nieuws/2026/05/masterstudent-uva-ontdekt-amandelvormige-exoplaneet-op-rand-van-uiteenvallen.html" target="_blank" rel="noopener">UvA <small>(Dutch)</small></a>
+          <a href="https://science.nasa.gov/exoplanet-catalog/toi-2431-b/" target="_blank" rel="noopener">NASA Exoplanet Catalog</a>
+        </div>
+
+        <div class="posts reveal">
+          <div>
+            <h3><svg class="icon solid"><use href="#i-linkedin"/></svg>On LinkedIn</h3>
+            <p>Announcements from the University of Amsterdam and my own posts about the discovery and the prizes.</p>
+          </div>
+          <div class="btn-row">
+            <a class="btn btn-ghost btn-sm" href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7462100691864485888/" target="_blank" rel="noopener">UvA · May 2026</a>
+            <a class="btn btn-ghost btn-sm" href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7462516981544677377/" target="_blank" rel="noopener">UvA · May 2026</a>
+            <a class="btn btn-ghost btn-sm" href="https://www.linkedin.com/posts/kayahantas_astrophysics-exoplanets-datascience-ugcPost-7398416363494502400-hwPL/" target="_blank" rel="noopener">My post · Nov 2025</a>
+            <a class="btn btn-ghost btn-sm" href="https://www.linkedin.com/posts/kayahantas_astrophysics-exoplanets-datascience-ugcPost-7401950511907807232-OGYc/" target="_blank" rel="noopener">My post · Dec 2025</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AWARDS ============ -->
+    <section class="section" id="awards">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Awards &amp; honours</p>
+          <h2>Recognised nationally for the best MSc thesis in astronomy</h2>
+          <p>My thesis, <a href="https://scripties.uba.uva.nl/search?id=record_57021" target="_blank" rel="noopener"><em>“ExoMUSE and the Discovery of Ultra-Short Period Planet TOI-2431 b”</em></a>, won both the national and the institute prize in 2025.</p>
+        </div>
+
+        <div class="awards-top">
+          <article class="award major reveal">
+            <div class="medal"><svg class="icon"><use href="#i-trophy"/></svg></div>
+            <span class="year">2025</span>
+            <h3>KHMW Young Talent Graduation Prize for Astronomy</h3>
+            <p class="org">Royal Holland Society of Sciences and Humanities (KHMW)</p>
+            <p>National prize for the best MSc thesis in astronomy in the Netherlands.</p>
+            <p>Presented on 24 November 2025, with the laudatio given by Prof. Ewine van Dishoeck.</p>
+            <p><a href="https://www.astronomie.nl/nieuws/sten-sipma-en-kaya-han-tas-winnen-khmw-jong-talent-afstudeerprijzen-voor-sterrenkunde-4747" target="_blank" rel="noopener">Read the announcement</a> · <a href="https://scripties.uba.uva.nl/search?id=record_57021" target="_blank" rel="noopener">Read the thesis</a></p>
+          </article>
+          <article class="award major reveal">
+            <div class="medal"><svg class="icon"><use href="#i-trophy"/></svg></div>
+            <span class="year">2025</span>
+            <h3>API Best MSc Thesis Prize</h3>
+            <p class="org">Anton Pannekoek Institute for Astronomy, University of Amsterdam</p>
+            <p>Awarded for the best MSc thesis of the year at the University of Amsterdam's astronomy institute.</p>
+          </article>
+        </div>
+
+        <ul class="awards-list">
+          <li class="reveal"><svg class="icon"><use href="#i-telescope"/></svg><div><strong>Observing proposal granted</strong> <span>Mercator Telescope, La Palma · 2024</span></div></li>
+          <li class="reveal"><svg class="icon"><use href="#i-cap"/></svg><div><strong>MSc cum laude (8.6 / 10)</strong> <span>University of Amsterdam &amp; VU Amsterdam · 2025</span></div></li>
+          <li class="reveal"><svg class="icon"><use href="#i-star"/></svg><div><strong>Top Student, Faculty of Science</strong> <span>Akdeniz University · 2022</span></div></li>
+          <li class="reveal"><svg class="icon"><use href="#i-star"/></svg><div><strong>Top Student, Space Sciences &amp; Technologies</strong> <span>Akdeniz University · 2022</span></div></li>
+          <li class="reveal"><svg class="icon"><use href="#i-star"/></svg><div><strong>Certificate of High Honor</strong> <span>Akdeniz University · 2022</span></div></li>
+          <li class="reveal"><svg class="icon"><use href="#i-sparkle"/></svg><div><strong>Erasmus+ IDEAL programme</strong> <span>Portugal, Hungary &amp; Turkey · 2017</span></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Tools I've built</h2>
+          <p>From Bayesian inference packages to deep learning, these are open-source Python projects you can explore on GitHub.</p>
+        </div>
+
+        <div class="projects">
+          <article class="project featured-project reveal">
+            <div class="thumb"><img src="images/web/fig-joint-fit.jpg" alt="Joint transit and radial-velocity fit produced with ExoMUSE" loading="lazy" width="1600" height="807" /></div>
+            <div class="body">
+              <span class="kicker">Python package · MSc thesis</span>
+              <h3>ExoMUSE</h3>
+              <p>A modular Python package for parameter estimation and uncertainty quantification on noisy, high-dimensional data. It's the engine behind the TOI-2431 b discovery.</p>
+              <ul class="points">
+                <li>Bayesian inference with MCMC (emcee) and differential-evolution optimisation</li>
+                <li>Joint modelling of several data types (transit, radial velocity, Rossiter–McLaughlin; astrometry in progress) for more robust results</li>
+                <li>Tutorial notebooks and the full TOI-2431 b analysis included</li>
+              </ul>
+              <ul class="tags">
+                <li class="tag">Python</li><li class="tag">NumPy</li><li class="tag">emcee</li><li class="tag">Bayesian inference</li><li class="tag">MCMC</li><li class="tag">Astropy</li>
+              </ul>
+              <div class="actions">
+                <a class="btn btn-primary btn-sm" href="https://github.com/Kaya-Han-Tas/ExoMUSE" target="_blank" rel="noopener"><svg class="icon solid"><use href="#i-github"/></svg>View on GitHub</a>
+                <a class="btn btn-ghost btn-sm" href="https://scripties.uba.uva.nl/search?id=record_57021" target="_blank" rel="noopener"><svg class="icon"><use href="#i-doc"/></svg>Read the thesis</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="fer-visual" aria-hidden="true">
+              <div>
+                <div class="grid">
+                  <span class="bar" style="height:61px"></span><span class="bar" style="height:7px"></span><span class="bar" style="height:62px"></span><span class="bar" style="height:110px"></span><span class="bar" style="height:74px"></span><span class="bar" style="height:48px"></span><span class="bar" style="height:76px"></span>
+                </div>
+                <div class="labels"><span>ANG</span><span>DIS</span><span>FEA</span><span>HAP</span><span>SAD</span><span>SUR</span><span>NEU</span></div>
+                <div class="caption">FER-2013 training images per emotion</div>
+              </div>
+            </div>
+            <div class="body">
+              <span class="kicker">Deep learning · PyTorch</span>
+              <h3>Facial Emotion Recognition</h3>
+              <p>A convolutional neural network that classifies faces into seven emotions, trained on the FER-2013 dataset of 35,887 images.</p>
+              <ul class="points">
+                <li>Built and trained a CNN in PyTorch with cross-entropy loss and the Adam optimiser</li>
+                <li>Improved preprocessing and architecture to reach 62% accuracy</li>
+                <li>Complete ML workflow: preprocessing, training and evaluation</li>
+              </ul>
+              <ul class="tags"><li class="tag">PyTorch</li><li class="tag">CNN</li><li class="tag">Computer vision</li><li class="tag">Jupyter</li></ul>
+              <div class="actions">
+                <a class="btn btn-primary btn-sm" href="https://github.com/Kaya-Han-Tas/Astronomy-and-Astrophysics-MSc-Codes/blob/main/Machine%20Learning%20for%20Physics%20%26%20Astronomy/Machine%20Learning%20-%20Mini%20Project.ipynb" target="_blank" rel="noopener"><svg class="icon solid"><use href="#i-github"/></svg>View notebook</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="thumb dark"><img src="images/web/lcm-gui.jpg" alt="Light Curve Modelling desktop app showing a fitted transit light curve" loading="lazy" width="1100" height="947" /></div>
+            <div class="body">
+              <span class="kicker">BSc thesis · Desktop app</span>
+              <h3>Light Curve Modelling</h3>
+              <p>An interactive Python tool with a graphical interface for modelling time-series data with regression and validation workflows.</p>
+              <ul class="points">
+                <li>Least-squares fitting of transit light curves and radial velocities</li>
+                <li>Clear visual output and automated LaTeX reports of the fitted parameters</li>
+              </ul>
+              <ul class="tags"><li class="tag">Python</li><li class="tag">Tkinter</li><li class="tag">SciPy</li><li class="tag">Matplotlib</li><li class="tag">LaTeX</li></ul>
+              <div class="actions">
+                <a class="btn btn-primary btn-sm" href="https://github.com/Kaya-Han-Tas/Light-Curve-Modelling" target="_blank" rel="noopener"><svg class="icon solid"><use href="#i-github"/></svg>View on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <div class="coursework reveal">
+            <div>
+              <h3>Coursework code</h3>
+              <p>Notebooks from my MSc and BSc: statistical methods, machine learning for physics, computational astrophysics, time-series analysis and more.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-ghost btn-sm" href="https://github.com/Kaya-Han-Tas/Astronomy-and-Astrophysics-MSc-Codes" target="_blank" rel="noopener"><svg class="icon solid"><use href="#i-github"/></svg>MSc repository</a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/Kaya-Han-Tas/Space-Sciences-and-Technologies-BSc-Codes" target="_blank" rel="noopener"><svg class="icon solid"><use href="#i-github"/></svg>BSc repository</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE & EDUCATION ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Experience &amp; education</p>
+          <h2>From the observatory to industry</h2>
+        </div>
+
+        <div class="cv-grid">
+          <div class="cv-col">
+            <h3 class="col-title"><svg class="icon"><use href="#i-briefcase"/></svg>Work</h3>
+            <ol class="entries">
+              <li class="entry current reveal">
+                <div class="entry-top"><h4>AI Content Expert II</h4><span class="when">Feb 2026 – now</span></div>
+                <p class="where">Amazon <span>· The Hague, NL</span></p>
+                <ul>
+                  <li>Curate, annotate and validate high-quality datasets for training and evaluating AI models, including large language models</li>
+                  <li>Apply analytical judgement to complex, multimodal data and resolve ambiguous cases while keeping data quality high</li>
+                  <li>Work with cross-functional teams to improve data quality, annotation workflows and model evaluation</li>
+                </ul>
+              </li>
+              <li class="entry reveal">
+                <div class="entry-top"><h4>Stock Associate</h4><span class="when">Oct 2024 – Jan 2026</span></div>
+                <p class="where">Albert Heijn <span>· Amsterdam, NL</span></p>
+                <ul><li>Part-time job alongside my MSc, requiring teamwork, adaptability and time management</li></ul>
+              </li>
+            </ol>
+          </div>
+
+          <div class="cv-col">
+            <h3 class="col-title"><svg class="icon"><use href="#i-cap"/></svg>Education</h3>
+            <ol class="entries">
+              <li class="entry reveal">
+                <div class="entry-top"><h4>MSc Physics &amp; Astronomy</h4><span class="when">2023 – 2025</span></div>
+                <p class="where">University of Amsterdam &amp; VU Amsterdam</p>
+                <div class="badges"><span class="badge">Cum laude</span> <span class="badge">GPA 8.6 / 10</span></div>
+                <ul>
+                  <li>Research-focused MSc in data analysis, statistical methods and time-series modelling</li>
+                  <li>Thesis: <a class="link" href="https://scripties.uba.uva.nl/search?id=record_57021" target="_blank" rel="noopener">ExoMUSE and the Discovery of Ultra-Short Period Planet TOI-2431 b</a>, which led to a first-author peer-reviewed paper</li>
+                  <li>KHMW national prize and API prize for the best MSc thesis</li>
+                </ul>
+              </li>
+              <li class="entry reveal">
+                <div class="entry-top"><h4>BSc Space Sciences &amp; Technologies</h4><span class="when">2018 – 2022</span></div>
+                <p class="where">Akdeniz University <span>· Antalya, TR</span></p>
+                <div class="badges"><span class="badge">Summa cum laude</span> <span class="badge">GPA 3.89 / 4.00</span> <span class="badge">Top student, Faculty of Science</span></div>
+                <ul>
+                  <li>Designed an interactive Python GUI for modelling time-series data (BSc thesis)</li>
+                  <li>Research in detection pipelines and remote sensing</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Toolkit</h2>
+        </div>
+        <div class="skills">
+          <div class="skill-group reveal">
+            <h3><svg class="icon"><use href="#i-code"/></svg>Programming &amp; tools</h3>
+            <ul class="tags">
+              <li class="tag">Python</li><li class="tag">NumPy</li><li class="tag">Pandas</li><li class="tag">SciPy</li><li class="tag">scikit-learn</li><li class="tag">PyTorch</li><li class="tag">Matplotlib</li><li class="tag">Seaborn</li><li class="tag">SQL</li><li class="tag">AWS</li><li class="tag">Jupyter</li><li class="tag">Git</li><li class="tag">Linux</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3><svg class="icon"><use href="#i-chart"/></svg>Data science &amp; analytics</h3>
+            <ul class="tags">
+              <li class="tag">Time-series analysis</li><li class="tag">Bayesian inference</li><li class="tag">MCMC</li><li class="tag">Monte Carlo simulation</li><li class="tag">Regression</li><li class="tag">Supervised learning</li><li class="tag">Deep learning</li><li class="tag">Signal processing</li><li class="tag">Statistics</li><li class="tag">Data visualisation</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3><svg class="icon"><use href="#i-grid"/></svg>Also</h3>
+            <ul class="tags">
+              <li class="tag">QGIS / ArcGIS</li><li class="tag">Remote sensing</li><li class="tag">Photogrammetry</li><li class="tag">AutoCAD</li><li class="tag">GUI design (Tkinter)</li><li class="tag">LaTeX</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">About me</p>
+          <h2>Astrophysicist by training, data scientist by choice</h2>
+        </div>
+        <div class="about">
+          <div class="about-text reveal">
+            <blockquote class="quote">
+              <p lang="nl">“Het is een kinderdroom die uitkomt.”</p>
+              <p class="translation">“It's a childhood dream come true.”</p>
+              <footer>In Het Parool and AD, on discovering TOI-2431 b</footer>
+            </blockquote>
+            <p>I'm a Physics &amp; Astronomy graduate (cum laude) from the University of Amsterdam and VU Amsterdam. My research taught me to approach problems systematically, extract insight from noisy data and build software that makes analysis faster and more reliable.</p>
+            <p>Today I work at Amazon as an AI Content Expert, curating and evaluating the data used to train and test large language models. Next, I want to apply data science where it makes a real impact, in a team where I can keep learning new technologies from the ground up.</p>
+            <p>If you'd like to connect, I'm always happy to chat on <a href="https://www.linkedin.com/in/kayahantas/" target="_blank" rel="noopener">LinkedIn</a> or over a coffee.</p>
+          </div>
+          <div class="about-facts reveal">
+            <div>
+              <h3>Languages</h3>
+              <ul>
+                <li><strong>Turkish</strong> <span>Native</span></li>
+                <li><strong>English</strong> <span>Professional</span></li>
+                <li><strong>Dutch</strong> <span>Basic (A2)</span></li>
+                <li><strong>German</strong> <span>Basic (A1)</span></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Soft skills</h3>
+              <ul class="tags"><li class="tag">Analytical thinking</li><li class="tag">Problem solving</li><li class="tag">Communication</li><li class="tag">Team collaboration</li><li class="tag">Adaptability</li><li class="tag">Curiosity</li></ul>
+            </div>
+            <div>
+              <h3>Outside work</h3>
+              <ul class="tags"><li class="tag">Kickboxing</li><li class="tag">Photography</li><li class="tag">Music</li><li class="tag">Travelling</li><li class="tag">Gaming</li><li class="tag">Reading</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Need someone who can find <br />a planet in the noise?</h2>
+        <p>I'm open to Data Science and Data Analyst roles in the Netherlands. Get in touch, I'd love to hear what you're working on.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="mailto:kayahantas07@gmail.com"><svg class="icon"><use href="#i-mail"/></svg>Email me</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/kayahantas/" target="_blank" rel="noopener"><svg class="icon solid"><use href="#i-linkedin"/></svg>LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/Kaya-Han-Tas" target="_blank" rel="noopener"><svg class="icon solid"><use href="#i-github"/></svg>GitHub</a>
+          <a class="btn btn-ghost" href="cv/Kaya_Han_Tas_CV.pdf" target="_blank" rel="noopener"><svg class="icon"><use href="#i-download"/></svg>CV</a>
+        </div>
+        <a class="email" href="mailto:kayahantas07@gmail.com">kayahantas07@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year">2026</span> Kaya Han Taş · Amsterdam</span>
+      <span>Figures: Taş et al. 2026, <em>A&amp;A</em> 707, A238</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Enlarged image">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close"><svg class="icon"><use href="#i-close"/></svg></button>
+    <img id="lightbox-img" src="" alt="" />
+    <p id="lightbox-caption"></p>
+  </dialog>
+
+  <script src="assets/js/site.js" defer></script>
+</body>
 </html>
