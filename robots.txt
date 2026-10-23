@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kaya-han-tas.github.io/sitemap.xml
