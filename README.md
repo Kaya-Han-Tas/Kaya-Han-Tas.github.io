@@ -34,4 +34,4 @@ Then open http://localhost:8080. The Instagram videos only load on the live site
 
 ## Credits
 
-Figures in the discovery section are from Taş et al. (2026), *A&A* 707, A238. Photos are from our observing trip to La Palma. Video thumbnails come from the University of Amsterdam and NOVA (AstronomieNL) posts linked on the page.
+Figures in the discovery section are from Taş et al. (2026), *A&A* 707, A238. Photos are from our observing trip to La Palma. Video thumbnails come from the University of Amsterdam and NOVA (AstronomieNL) posts linked on the page. Press logos in the "Featured in" strip belong to their respective owners and are sourced from Wikimedia Commons.
